@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocultar Párrafo con jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#ocultar-btn").click(function() {
+                $("#parrafo").hide();
+            });
+        });
+    </script>
+</head>
+<body>
+    <p id="parrafo">La vida es un suspiro en el viento, un instante que se desvanece como la brisa al amanecer. Aprecia cada momento, pues en su fugacidad reside su belleza.</p>
+    <button id="ocultar-btn">Ocultar Párrafo</button>
+</body>
+</html>
